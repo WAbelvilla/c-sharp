@@ -1,15 +1,13 @@
 using System;
 
-public class Aguila
-{
-    public void Volar ()
-    {
-        Volar();
-    }
+namespace _11_Animales {
+    public class Aguila : Aves {
+        public void VolarAlto (){
+            Console.WriteLine("Volar Alto");
+        }
 
-    public Aguila()
-    {
-    
-
+        public Aguila(string color, string plumaje, string name): base( color, plumaje, name){
+        
+        }
     }
 }

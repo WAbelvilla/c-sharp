@@ -1,18 +1,15 @@
 using System;
 
-public class Perro
+namespace _11_Animales {
+
+public class Perro : Mamiferos
 {
     public void Ladrar(){
-        Ladrar();
+        Console.WriteLine("Ladrar");
     }
 
-    public Perro(){ 
+    public Perro(int patas, string name): base (patas, name){
+        Console.WriteLine("Numero de Patas");
     }
-
-    
-
-
-
-
-
+}
 }

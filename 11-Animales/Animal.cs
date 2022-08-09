@@ -8,6 +8,6 @@ public class Animal
         Name = name;
     }
     public void Comer(){
-        Comer();
+        Console.WriteLine("Comer");
     }
 }

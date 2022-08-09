@@ -1,4 +1,4 @@
-public class Vendedor: Persona
+public class Vendedor : Persona
 {
     public string CodigoVendedor { get; set; }
 

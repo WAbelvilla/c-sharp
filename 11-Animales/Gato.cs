@@ -1,13 +1,15 @@
 using System;
 
-public class Gato
+namespace _11_Animales {
+public class Gato : Mamiferos
 {
-    public void Maullar()
-    {
-        Maullar();
+    public void Maullar(){
+        Console.WriteLine("Maullar");
     }
 
-    public Gato(){
-    
+    public Gato(int patas, string name): base (patas, name){
+        Console.WriteLine("Numero de Patas");
     }
+
+}
 }
