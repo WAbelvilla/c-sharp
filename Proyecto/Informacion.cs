@@ -49,7 +49,8 @@ public class Informacion
 
         Paciente p10 = new Paciente(10, "Lionel Andre Messi Couchitini ", "35", "Masculino", " Argentina");
         ListadePacientes.Add(p10);
-
+        
+        Paciente p11;
         
     }
 
@@ -69,7 +70,7 @@ public class Informacion
 
         Enfermera e5 = new Enfermera(5, "Andrea Zapata", "E005");
         ListadeEnfermeras.Add(e5);
-    
+        
     }
 
     public void ListarPacientes()
@@ -105,6 +106,7 @@ public class Informacion
     public void CrearPacienteNuevo()
     {
         Console.Clear();
+        
         Console.WriteLine("Creando Paciente Nuevo");
         Console.WriteLine("*************");
         Console.WriteLine("");
@@ -139,6 +141,10 @@ public class Informacion
             Console.WriteLine("Enfermera: " + enfermera.Nombre);
             Console.WriteLine("");
         }
+
+        Paciente p11 = new Paciente(11, nombreCompleto, edad, sexo, lugar);
+        ListadePacientes.Add(p11);
+        
         
         while (true)
         {
