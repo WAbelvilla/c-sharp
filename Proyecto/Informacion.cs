@@ -145,7 +145,7 @@ public class Informacion
         Paciente p11 = new Paciente(11, nombreCompleto, edad, sexo, lugar);
         ListadePacientes.Add(p11);
 
-        //ams
+        
         
         
         while (true)
